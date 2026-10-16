@@ -1,0 +1,12 @@
+# Entorno de Python (lo crea iniciar.bat)
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Archivos temporales que crea Excel mientras un libro está abierto
+~$*.xlsx
+
+# Tests y datos de ejemplo: quedan en esta PC, no se suben al repo
+tests/
+Ejemplos/
